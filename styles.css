@@ -1,0 +1,61 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
+
+.nav button {
+  margin-top: 60px;
+  margin-right: 20px;
+  border-radius: 4px;
+  height: 40px;
+  width: auto;
+}
+
+.sidenav-video {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.video {
+  margin-right: 80px;
+}
+
+#galaxy, #video-1 {
+  height: 100px;
+  width: 200px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+
+
+
+
+#search-field {
+  float: right;
+  height: 50px;
+  width: 400px;
+}
+
+iframe {
+  height: 700px;
+  width: 1000px;
+}
+
+@media screen and (max-width: 1050px) {
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+}
